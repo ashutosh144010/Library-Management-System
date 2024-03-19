@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Available Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .content-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .books-link {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #FFA500;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .logout, .main-menu {
+    position: fixed;
+    top: 10px;
+    padding: 10px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout {
+    right: 70px; /* Adjust the distance from right for "Logout" button */
+}
+
+.main-menu {
+    right: 10px; /* Adjust the distance from right for "Main Menu" button */
+}
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1>View Available Books</h1>
+        <p>
+            <a href="AvailableBooksServlet" class="books-link">Show Available Books</a>
+        </p>
+        <a href="librarian.html" class="main-menu">Main Menu</a>
+    </div>
+</body>
+</html>
